@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+  font-family: "Abhaya Libre", serif;
+  background-color: #d3eeeb;
+  /* font-family: "Amita", cursive; */
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 1.5rem 0;
+  letter-spacing: 0.06rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+/* loader svg */
+svg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+.hidden {
+  visibility: hidden;
+}
+
+/* image container */
+.image-container {
+  margin: 5em 20%;
+}
+.image-container .card {
+  width: 90%;
+  margin-top: 1.5em;
+}
+
+.card-reveal .content {
+  margin: 20% 0;
+}
+p {
+  font-size: 1.5rem;
+  padding: 1.5rem 0;
+}
+.content a {
+  font-size: 1.2rem;
+}
